@@ -1,0 +1,31 @@
+伪造视频服务器启动在 http://0.0.0.0:8080
+ * Serving Flask app 'fake_video_server'
+ * Debug mode: on
+2025-04-01 15:03:23,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.20.10.10:8080
+2025-04-01 15:03:23,979 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 15:03:23,979 - INFO -  * Restarting with stat
+2025-04-01 15:03:24,106 - WARNING -  * Debugger is active!
+2025-04-01 15:03:24,106 - INFO -  * Debugger PIN: 500-109-227
+2025-04-01 15:03:25,848 - INFO - 172.20.10.10 - - [01/Apr/2025 15:03:25] "GET / HTTP/1.1" 200 -
+2025-04-01 15:05:13,143 - INFO - 127.0.0.1 - - [01/Apr/2025 15:05:13] "GET / HTTP/1.1" 200 -
+2025-04-01 15:05:21,648 - INFO - 172.20.10.10 - - [01/Apr/2025 15:05:21] "GET / HTTP/1.1" 200 -
+2025-04-01 15:05:21,681 - INFO - 172.20.10.10 - - [01/Apr/2025 15:05:21] "GET /video_feed HTTP/1.1" 200 -
+2025-04-01 15:05:26,488 - INFO - 172.20.10.10 - - [01/Apr/2025 15:05:26] "POST /api/start_attack HTTP/1.1" 200 -
+2025-04-01 15:05:26,531 - INFO - 172.20.10.10 - - [01/Apr/2025 15:05:26] "GET / HTTP/1.1" 200 -
+2025-04-01 15:05:49,765 - INFO - 172.20.10.10 - - [01/Apr/2025 15:05:49] "POST /api/start_attack HTTP/1.1" 200 -
+2025-04-01 15:05:52,554 - INFO - 172.20.10.10 - - [01/Apr/2025 15:05:52] "POST /api/stop_attack HTTP/1.1" 200 -
+2025-04-01 15:06:01,519 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:01] "POST /api/start_attack HTTP/1.1" 200 -
+2025-04-01 15:06:01,560 - INFO - 127.0.0.1 - - [01/Apr/2025 15:06:01] "GET / HTTP/1.1" 200 -
+2025-04-01 15:06:17,324 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:17] "POST /api/stop_attack HTTP/1.1" 200 -
+2025-04-01 15:06:22,706 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:22] "POST /api/capture_new HTTP/1.1" 200 -
+2025-04-01 15:06:42,184 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:42] "POST /api/refresh_video HTTP/1.1" 200 -
+2025-04-01 15:06:42,190 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:42] "GET /video_feed?t=1743545202186 HTTP/1.1" 200 -
+2025-04-01 15:06:46,981 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:46] "POST /api/start_attack HTTP/1.1" 200 -
+2025-04-01 15:06:47,025 - INFO - 127.0.0.1 - - [01/Apr/2025 15:06:47] "GET / HTTP/1.1" 200 -
+2025-04-01 15:06:56,475 - INFO - 172.20.10.10 - - [01/Apr/2025 15:06:56] "POST /api/stop_attack HTTP/1.1" 200 -
+2025-04-01 15:10:08,287 - INFO -  * Detected change in '/home/kali/facial-payment-attack/tools/fake_video_server.py', reloading
+伪造视频服务器启动在 http://0.0.0.0:8080
+terminate called without an active exception

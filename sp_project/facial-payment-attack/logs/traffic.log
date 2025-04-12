@@ -1,0 +1,16 @@
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+
+0 packets captured
+0 packets received by filter
+0 packets dropped by kernel
+8390074:3948390415, ack 1353840013, win 502, options [nop,nop,TS val 3980990390 ecr 3268181708], length 341
+14:57:46.579823 IP 172.20.10.11.38830 > 172.20.10.7.5000: Flags [P.], seq 2811309770:2811310066, ack 1548775345, win 502, options [nop,nop,TS val 3980990410 ecr 1542520087], length 296
+14:58:16.108434 IP 172.20.10.11.34852 > 172.20.10.7.5000: Flags [P.], seq 2946660972:2946661313, ack 435709194, win 502, options [nop,nop,TS val 3981019939 ecr 4043973404], length 341
+14:58:16.161888 IP 172.20.10.11.34856 > 172.20.10.7.5000: Flags [P.], seq 493567986:493568282, ack 3811098766, win 502, options [nop,nop,TS val 3981019993 ecr 2603673434], length 296
+14:58:28.205198 IP 172.20.10.11.54320 > 172.20.10.7.5000: Flags [P.], seq 4105450436:4105450777, ack 2210439836, win 502, options [nop,nop,TS val 3981032036 ecr 2596106682], length 341
+14:58:28.223028 IP 172.20.10.11.54322 > 172.20.10.7.5000: Flags [P.], seq 1968453726:1968454022, ack 61832415, win 502, options [nop,nop,TS val 3981032054 ecr 2990824402], length 296
+
+6 packets captured
+7 packets received by filter
+0 packets dropped by kernel
