@@ -8,5 +8,5 @@
 sudo bash ./coordinator.sh [client_ip] [server_ip] [attacker_ip] # replace face information
 #sudo bash ./coordinator.sh 192.168.164.129 192.168.164.128 192.168.164.130 
 ### enhanced server establishment /client subscription
-
-
+bash ./start_server.sh #venv
+bash ./start_client.sh #venv
