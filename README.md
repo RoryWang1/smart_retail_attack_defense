@@ -2,9 +2,9 @@
 ## test of face payment attack
 ### original server establishment /client subscription
 
-./https_camera_server.py # start face payment server 
+./https_camera_server.py # start face payment server #venv
 
-./https-client-monitor.py # start to face payment
+./https-client-monitor.py # start to face payment #venv
 
 ### attack command
 
