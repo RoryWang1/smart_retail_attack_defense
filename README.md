@@ -63,7 +63,7 @@ Attackers use the `start_capture.sh` script to initiate facial data collection:
 
 #### 2. Replacing Facial Payment Information
 
-Attackers continue using the latter part of the `start_capture.sh` script, coordinating `fake_https.py` and `coordinator.sh` to implement facial information replacement attack:
+Attackers continue using the latter part of the `coordinator.sh` script, coordinating `fake_https.py` to implement facial information replacement attack:
 
 ##### Technical Methods:
 * **Man-in-the-Middle Attack Deployment**
