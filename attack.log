@@ -1,0 +1,5 @@
+
+[2025-04-19 17:30:33] ALERT: Eavesdrop attack detected: invalid HMAC attempt
+[2025-04-19 17:30:33] ALERT: Replay attack test detected: old HMAC reuse
+[2025-04-19 17:30:34] ALERT: Response HMAC invalid from 127.0.0.1:8888
+[2025-04-19 17:30:34] ALERT: Clone attack test detected: tampered ciphertext
