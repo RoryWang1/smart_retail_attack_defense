@@ -24,5 +24,5 @@
 Xuanfan Lin 
 Ruoyu Wang 
 Leitian Liu 
-Viola Guo  
+Yuchen Guo  
 Course: Security and Privacy (ELEC0138), UCL Department of Electronic & Electrical Engineering.

@@ -60,7 +60,10 @@ python attacks.py reader --tag-host 127.0.0.1 --tag-port 8888
 
 ### 2.5 Clone / Tamper
 ```bash
-# Terminal C   (real tag back on 9999)
+# Terminal A (real tag back on 9999)
+python attacks.py tag --host 127.0.0.2 --port 9999
+
+# Terminal C   
 python attacks.py clone --listen-port 8888 --real-host 127.0.0.2 --real-port 9999
 
 # Terminal B
